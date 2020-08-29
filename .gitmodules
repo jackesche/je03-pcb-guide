@@ -1,0 +1,6 @@
+[submodule "je03-pcb-guide/MX_Alps_Hybrid.pretty"]
+	path = je03-pcb-guide/MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "je03-pcb-guide/random-keyboard-parts.pretty"]
+	path = je03-pcb-guide/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
