@@ -578,9 +578,9 @@ Wire Wire Line
 	2300 3000 2500 3000
 Wire Wire Line
 	2300 2500 2900 2500
-Text GLabel 2300 2200 2    50   Input ~ 0
+Text GLabel 2400 2150 2    50   Input ~ 0
 D-
-Text GLabel 2300 2400 2    50   Input ~ 0
+Text GLabel 2400 2350 2    50   Input ~ 0
 D+
 $Comp
 L power:GND #PWR0111
@@ -637,7 +637,17 @@ F 5 "Global Connector Technology" H 2000 2200 50  0001 L BNN "Field5"
 	1    2000 2200
 	-1   0    0    1   
 $EndComp
-NoConn ~ 2300 2300
-NoConn ~ 2300 2100
 NoConn ~ 3100 -600
+Wire Wire Line
+	2300 2100 2400 2100
+Wire Wire Line
+	2300 2200 2400 2200
+Wire Wire Line
+	2400 2100 2400 2200
+Wire Wire Line
+	2300 2400 2400 2400
+Wire Wire Line
+	2300 2300 2400 2300
+Wire Wire Line
+	2400 2300 2400 2400
 $EndSCHEMATC
